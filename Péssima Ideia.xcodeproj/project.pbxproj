@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC6733751916FC3E00F2A6A0 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6733741916FC3E00F2A6A0 /* AboutView.m */; };
+		AC6733771916FC4E00F2A6A0 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6733761916FC4E00F2A6A0 /* AboutView.xib */; };
+		AC8B2A821916F3DA00A44320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2A811916F3DA00A44320 /* Foundation.framework */; };
+		AC8B2A841916F3DA00A44320 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2A831916F3DA00A44320 /* CoreGraphics.framework */; };
+		AC8B2A861916F3DA00A44320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2A851916F3DA00A44320 /* UIKit.framework */; };
+		AC8B2A8C1916F3DA00A44320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC8B2A8A1916F3DA00A44320 /* InfoPlist.strings */; };
+		AC8B2A8E1916F3DA00A44320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B2A8D1916F3DA00A44320 /* main.m */; };
+		AC8B2A921916F3DA00A44320 /* PIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B2A911916F3DA00A44320 /* PIAppDelegate.m */; };
+		AC8B2A951916F3DA00A44320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8B2A931916F3DA00A44320 /* Main.storyboard */; };
+		AC8B2A9A1916F3DA00A44320 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B2A991916F3DA00A44320 /* Images.xcassets */; };
+		AC8B2AA11916F3DA00A44320 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2AA01916F3DA00A44320 /* XCTest.framework */; };
+		AC8B2AA21916F3DA00A44320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2A811916F3DA00A44320 /* Foundation.framework */; };
+		AC8B2AA31916F3DA00A44320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B2A851916F3DA00A44320 /* UIKit.framework */; };
+		AC8B2AAB1916F3DA00A44320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC8B2AA91916F3DA00A44320 /* InfoPlist.strings */; };
+		AC8B2AAD1916F3DA00A44320 /* Pe_ssima_IdeiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B2AAC1916F3DA00A44320 /* Pe_ssima_IdeiaTests.m */; };
+		AC8B2ABC1916F4FF00A44320 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B2ABB1916F4FF00A44320 /* AboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8B2AA41916F3DA00A44320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8B2A761916F3DA00A44320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8B2A7D1916F3DA00A44320;
+			remoteInfo = "Péssima Ideia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC6733731916FC3E00F2A6A0 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutView.h; path = Views/AboutView.h; sourceTree = "<group>"; };
+		AC6733741916FC3E00F2A6A0 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutView.m; path = Views/AboutView.m; sourceTree = "<group>"; };
+		AC6733761916FC4E00F2A6A0 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView.xib; path = Views/AboutView.xib; sourceTree = "<group>"; };
+		AC8B2A7E1916F3DA00A44320 /* Péssima Ideia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Péssima Ideia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8B2A811916F3DA00A44320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC8B2A831916F3DA00A44320 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC8B2A851916F3DA00A44320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC8B2A891916F3DA00A44320 /* Péssima Ideia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Péssima Ideia-Info.plist"; sourceTree = "<group>"; };
+		AC8B2A8B1916F3DA00A44320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC8B2A8D1916F3DA00A44320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC8B2A8F1916F3DA00A44320 /* Péssima Ideia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Péssima Ideia-Prefix.pch"; sourceTree = "<group>"; };
+		AC8B2A901916F3DA00A44320 /* PIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIAppDelegate.h; sourceTree = "<group>"; };
+		AC8B2A911916F3DA00A44320 /* PIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
+		AC8B2A941916F3DA00A44320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8B2A991916F3DA00A44320 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC8B2A9F1916F3DA00A44320 /* Péssima IdeiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Péssima IdeiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8B2AA01916F3DA00A44320 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC8B2AA81916F3DA00A44320 /* Péssima IdeiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Péssima IdeiaTests-Info.plist"; sourceTree = "<group>"; };
+		AC8B2AAA1916F3DA00A44320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC8B2AAC1916F3DA00A44320 /* Pe_ssima_IdeiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pe_ssima_IdeiaTests.m; sourceTree = "<group>"; };
+		AC8B2AB61916F4A100A44320 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Supporting Files/Constants.h"; sourceTree = "<group>"; };
+		AC8B2ABA1916F4FF00A44320 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ViewControllers/AboutViewController.h; sourceTree = "<group>"; };
+		AC8B2ABB1916F4FF00A44320 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ViewControllers/AboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8B2A7B1916F3DA00A44320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B2A841916F3DA00A44320 /* CoreGraphics.framework in Frameworks */,
+				AC8B2A861916F3DA00A44320 /* UIKit.framework in Frameworks */,
+				AC8B2A821916F3DA00A44320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B2A9C1916F3DA00A44320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B2AA11916F3DA00A44320 /* XCTest.framework in Frameworks */,
+				AC8B2AA31916F3DA00A44320 /* UIKit.framework in Frameworks */,
+				AC8B2AA21916F3DA00A44320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6733781917005700F2A6A0 /* AboutView */ = {
+			isa = PBXGroup;
+			children = (
+				AC6733731916FC3E00F2A6A0 /* AboutView.h */,
+				AC6733741916FC3E00F2A6A0 /* AboutView.m */,
+				AC6733761916FC4E00F2A6A0 /* AboutView.xib */,
+			);
+			name = AboutView;
+			sourceTree = "<group>";
+		};
+		AC6733791917005C00F2A6A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC6733781917005700F2A6A0 /* AboutView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AC8B2A751916F3DA00A44320 = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A871916F3DA00A44320 /* Péssima Ideia */,
+				AC8B2AA61916F3DA00A44320 /* Péssima IdeiaTests */,
+				AC8B2A801916F3DA00A44320 /* Frameworks */,
+				AC8B2A7F1916F3DA00A44320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8B2A7F1916F3DA00A44320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A7E1916F3DA00A44320 /* Péssima Ideia.app */,
+				AC8B2A9F1916F3DA00A44320 /* Péssima IdeiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8B2A801916F3DA00A44320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A811916F3DA00A44320 /* Foundation.framework */,
+				AC8B2A831916F3DA00A44320 /* CoreGraphics.framework */,
+				AC8B2A851916F3DA00A44320 /* UIKit.framework */,
+				AC8B2AA01916F3DA00A44320 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC8B2A871916F3DA00A44320 /* Péssima Ideia */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2AB71916F4BC00A44320 /* App Delegate */,
+				AC8B2AB81916F4C600A44320 /* Storyboards */,
+				AC6733791917005C00F2A6A0 /* Views */,
+				AC8B2ABD1916F50500A44320 /* View Controllers */,
+				AC8B2AB91916F4D300A44320 /* Images */,
+				AC8B2AB61916F4A100A44320 /* Constants.h */,
+				AC8B2A881916F3DA00A44320 /* Supporting Files */,
+			);
+			path = "Péssima Ideia";
+			sourceTree = "<group>";
+		};
+		AC8B2A881916F3DA00A44320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A891916F3DA00A44320 /* Péssima Ideia-Info.plist */,
+				AC8B2A8A1916F3DA00A44320 /* InfoPlist.strings */,
+				AC8B2A8D1916F3DA00A44320 /* main.m */,
+				AC8B2A8F1916F3DA00A44320 /* Péssima Ideia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC8B2AA61916F3DA00A44320 /* Péssima IdeiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2AAC1916F3DA00A44320 /* Pe_ssima_IdeiaTests.m */,
+				AC8B2AA71916F3DA00A44320 /* Supporting Files */,
+			);
+			path = "Péssima IdeiaTests";
+			sourceTree = "<group>";
+		};
+		AC8B2AA71916F3DA00A44320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2AA81916F3DA00A44320 /* Péssima IdeiaTests-Info.plist */,
+				AC8B2AA91916F3DA00A44320 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC8B2AB71916F4BC00A44320 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A901916F3DA00A44320 /* PIAppDelegate.h */,
+				AC8B2A911916F3DA00A44320 /* PIAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		AC8B2AB81916F4C600A44320 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A931916F3DA00A44320 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		AC8B2AB91916F4D300A44320 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2A991916F3DA00A44320 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AC8B2ABD1916F50500A44320 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B2ABA1916F4FF00A44320 /* AboutViewController.h */,
+				AC8B2ABB1916F4FF00A44320 /* AboutViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8B2A7D1916F3DA00A44320 /* Péssima Ideia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8B2AB01916F3DA00A44320 /* Build configuration list for PBXNativeTarget "Péssima Ideia" */;
+			buildPhases = (
+				AC8B2A7A1916F3DA00A44320 /* Sources */,
+				AC8B2A7B1916F3DA00A44320 /* Frameworks */,
+				AC8B2A7C1916F3DA00A44320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Péssima Ideia";
+			productName = "Péssima Ideia";
+			productReference = AC8B2A7E1916F3DA00A44320 /* Péssima Ideia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8B2A9E1916F3DA00A44320 /* Péssima IdeiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8B2AB31916F3DA00A44320 /* Build configuration list for PBXNativeTarget "Péssima IdeiaTests" */;
+			buildPhases = (
+				AC8B2A9B1916F3DA00A44320 /* Sources */,
+				AC8B2A9C1916F3DA00A44320 /* Frameworks */,
+				AC8B2A9D1916F3DA00A44320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8B2AA51916F3DA00A44320 /* PBXTargetDependency */,
+			);
+			name = "Péssima IdeiaTests";
+			productName = "Péssima IdeiaTests";
+			productReference = AC8B2A9F1916F3DA00A44320 /* Péssima IdeiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8B2A761916F3DA00A44320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexandre Canuto";
+				TargetAttributes = {
+					AC8B2A9E1916F3DA00A44320 = {
+						TestTargetID = AC8B2A7D1916F3DA00A44320;
+					};
+				};
+			};
+			buildConfigurationList = AC8B2A791916F3DA00A44320 /* Build configuration list for PBXProject "Péssima Ideia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8B2A751916F3DA00A44320;
+			productRefGroup = AC8B2A7F1916F3DA00A44320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8B2A7D1916F3DA00A44320 /* Péssima Ideia */,
+				AC8B2A9E1916F3DA00A44320 /* Péssima IdeiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8B2A7C1916F3DA00A44320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6733771916FC4E00F2A6A0 /* AboutView.xib in Resources */,
+				AC8B2A9A1916F3DA00A44320 /* Images.xcassets in Resources */,
+				AC8B2A8C1916F3DA00A44320 /* InfoPlist.strings in Resources */,
+				AC8B2A951916F3DA00A44320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B2A9D1916F3DA00A44320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B2AAB1916F3DA00A44320 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8B2A7A1916F3DA00A44320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6733751916FC3E00F2A6A0 /* AboutView.m in Sources */,
+				AC8B2ABC1916F4FF00A44320 /* AboutViewController.m in Sources */,
+				AC8B2A8E1916F3DA00A44320 /* main.m in Sources */,
+				AC8B2A921916F3DA00A44320 /* PIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8B2A9B1916F3DA00A44320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B2AAD1916F3DA00A44320 /* Pe_ssima_IdeiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8B2AA51916F3DA00A44320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8B2A7D1916F3DA00A44320 /* Péssima Ideia */;
+			targetProxy = AC8B2AA41916F3DA00A44320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8B2A8A1916F3DA00A44320 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8B2A8B1916F3DA00A44320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC8B2A931916F3DA00A44320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8B2A941916F3DA00A44320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC8B2AA91916F3DA00A44320 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8B2AAA1916F3DA00A44320 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8B2AAE1916F3DA00A44320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC8B2AAF1916F3DA00A44320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8B2AB11916F3DA00A44320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Péssima Ideia/Péssima Ideia-Prefix.pch";
+				INFOPLIST_FILE = "Péssima Ideia/Péssima Ideia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC8B2AB21916F3DA00A44320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Péssima Ideia/Péssima Ideia-Prefix.pch";
+				INFOPLIST_FILE = "Péssima Ideia/Péssima Ideia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC8B2AB41916F3DA00A44320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Péssima Ideia.app/Péssima Ideia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Péssima Ideia/Péssima Ideia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Péssima IdeiaTests/Péssima IdeiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC8B2AB51916F3DA00A44320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Péssima Ideia.app/Péssima Ideia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Péssima Ideia/Péssima Ideia-Prefix.pch";
+				INFOPLIST_FILE = "Péssima IdeiaTests/Péssima IdeiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8B2A791916F3DA00A44320 /* Build configuration list for PBXProject "Péssima Ideia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B2AAE1916F3DA00A44320 /* Debug */,
+				AC8B2AAF1916F3DA00A44320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8B2AB01916F3DA00A44320 /* Build configuration list for PBXNativeTarget "Péssima Ideia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B2AB11916F3DA00A44320 /* Debug */,
+				AC8B2AB21916F3DA00A44320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8B2AB31916F3DA00A44320 /* Build configuration list for PBXNativeTarget "Péssima IdeiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8B2AB41916F3DA00A44320 /* Debug */,
+				AC8B2AB51916F3DA00A44320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8B2A761916F3DA00A44320 /* Project object */;
+}

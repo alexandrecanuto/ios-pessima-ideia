@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F198770-7C56-46AA-8A96-AEC17007E078</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Péssima Ideia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74692772-0216-420E-B7F0-AB11FD64C379</key>
+		<string>https://bitbucket.org/alexandrecanuto/xcode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Péssima Ideia/Péssima Ideia.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74692772-0216-420E-B7F0-AB11FD64C379</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/alexandrecanuto/xcode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74692772-0216-420E-B7F0-AB11FD64C379</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74692772-0216-420E-B7F0-AB11FD64C379</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
